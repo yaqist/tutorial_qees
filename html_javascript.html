@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> HTML Multimedia </title>
+</head>
+<body> 
+	<iframe src="https://free.timeanddate.com/clock/ia6uf09q/n122/fn7/fs20/tct/pct/ftb/th2" frameborder="0" width="128" height="30" allowtransparency="true"></iframe>
+
+
+	<h2> Javascripts change content </h2>
+	<p id="content1"> This is my first content </p> 
+	<button type="button" onclick='document.getElementById("content1").innerHTML= "This is my first content"'> Change content </button>
+
+	<h3> Javascript change style </h2>
+	<p id="style1"> i use javascript to change the style of my content </p>
+
+	>
+	<script> 
+		function mystyle ()
+		{
+			document.getElementById("style1").style.
+			fontsize ="40px";
+			document.getElementById("style1").style.
+			color = "red";
+			document.getElementById("style1").style.
+			backgroundcolor ="yellow";
+			document.getElementById("style1").style.
+			fontfamily ="Lucida";
+
+		}
+	</script>
+
+	<button type="button" onlick="mystyle()" > Click Me </button>
+
+	<h3> Javascripts manipulate image </h3>
+
+	<script>
+		function myImage (a)
+		{
+			var pict;
+			if (a==1)
+			{
+				pict="image/cars.jpg"
+			}
+			else 
+			{
+				pict= "image/flowers.jpg"
+			}
+			document.getElementById('gambar').src=pict;
+
+	
+
+
+		}
+
+	
+	</script>
+	<img src="image/cars.jpg" width="200" height="170" id="gambar">
+
+	<p> 
+		<button type ="button" onlick ="myImage(1)" >Picture A  </button>
+		<button type ="button" onclick = "myImage(2)" > Picture B </button>
+
+	</p>
+
+	<h2> Alert box </h2>
+	<script>
+		{
+			alert ("Assalamualaikum .\n Hi! Welcome to my webpage \n Enjoy browsing my page) 
+		}
+		
+	</script>
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.246771236882!2d102.2813593!3d6.055172100000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6bbca0d7d84ff%3A0x22212f3754a7feba!2sNASKEN%20COFFEE%20Pasir%20Tumboh!5e1!3m2!1sen!2smy!4v1765158719055!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+
+
+
+

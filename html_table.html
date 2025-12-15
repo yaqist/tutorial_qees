@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> HTML Table </title>
+
+	<style>
+		table, tr, th, td {
+
+			border: 2px solid black ;
+			border-collapse: collapse;
+		}
+
+		th, td {
+
+		padding: 20px; 
+
+		}
+		th {
+			background-color:pink;
+			color: white;
+		}
+		tr {
+			background-color: beige;
+		}
+		td{
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1> BASIC HTML TABLE </h1>
+
+	<table style=" width: 80% ;"> 
+		<caption> Table 1: List of Students </caption>
+		<tr> 
+			<th> Name </th>
+			<th> Phone No. </th>
+			<th> Email </th>
+			<th> Course </th>
+		</tr>
+
+		<tr> 
+			<td> Nora Ishak </td>
+			<td> 0199090880 </td>
+			<td> Nora_ishak@gmail.com </td>
+			<td> IM110 </td>
+
+		</tr>
+		<tr> 
+			<td> Azmeer Ali </td>
+			<td> 0112008800 </td>
+		    <td> Azmeer_ali@yahoo.com </td>
+		    <td> IM110 </td>
+
+		</tr>
+		<tr>
+			<td> Arizan Abdullah </td>
+			<td> 0177779009 </td>
+		    <td> arizan@gmail.com </td>
+		    <td> IM245 </td>	
+
+		</tr>
+		<tr> 
+			<td> Zainab Esah </td> 
+			<td> 0198880099 </td>
+		    <td> z_esah@yahoo.com </td>
+		    <td> CS11 </td>
+
+		</tr>
+	</table>
+    </body>
+
+    <table style=" width: 100% ;">
+
+    	<h3> LIST OF IMAGES </h3>
+    	<caption> Table 2: List of Images </caption>
+
+    	<tr> 
+    		<th> Images </th>
+    		<th> Description </th>
+
+    	</tr>
+    	<tr>
+    		<td> <img src="image/shell.jpg" width="100" height="100"></td>
+    		<td> “Wolves in shells are crueler than stray ones.”― Gaston Bachelard, The Poetics of Space
+    	</tr> 
+    	<tr>
+    		<td> <img src="image/ribbon.jpg" width="100" height="100"></td>
+    		<td> <“Here is a warning: Not all things end up tied with a perfect bow. Sometimes the ribbon frays. Sometimes you get a knot. A very messy one."― Anonymous
+    	</tr>
+    </table>
+    </body> 
+
+
+    
+    	<h3> ROWSPAN </h3>
+    	<caption> Table 3: List of ROWSPAN </caption>
+
+    	<table style=" width: 100%;">
+
+    	<tr> 
+    		<th> Tea </th>
+    		<th> Item </th>
+    		<th> Price </th>
+    		<th> Description </th>
+    	</tr>
+
+    	<tr>
+    		<td rowspan=" 3"> Black Teas </td>
+    		<td> A01 </td>
+    		<td> RM 23.00/box </td>
+    		<td> Darjeeling </td>
+    	</tr>
+
+    	<tr>
+    		<td> A02 </td>
+    		<td> RM 25.00/box </td>
+    		<td> Breakfast Tea </td>
+
+    	</tr>
+
+    	<tr> 
+    		<td> A03 </td>
+    		<td> RM 19.90/box </td>
+    		<td> Earl Grey </td>
+    	</tr>
+
+    	<tr> 
+    		<td> White Teas </td>
+    		<td> B01 </td>
+    		<td> RM 29.90.box </td>
+    		<td> White Tip</td>
+    	</tr>
+    </table>
+
+
+    	<h3> COLSPAN </h3>
+    	<table border=1 style="width: 100%;">
+    		<caption> Table 4: Table of Colspan </caption>
+
+
+
+    	<table style="width: 100%;">
+    	<tr> 
+    		
+    		 
+    	    <th colspan="2"> Name </th>
+    		<th > Age </th>
+    	</tr>
+
+    	<tr> 
+    		<td> Jackson </td>
+    		<td> Jeffrey </td>
+    		<td> 32 </td>
+
+    	</tr>
+
+    	<tr> 
+    		<td> Mark </td>
+    		<td> Matthew </td>
+    		<td> 28 </td>
+
+    	</tr> 
+
+    	<tr> 
+    		<td> Jayjay </td>
+    		<td> Johnsom Johnson </td>
+    		<td> 27 </td> 
+    	</tr> 
+
+    </table>
+
+    <h3> PADDING </h3>
+
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+    	<caption> Table 5 : Table of Padding </caption>
+
+    	<tr> 
+    		<th> No. </th>
+    		<th> Fuit Name</th>
+    		<th> Quantity </th>
+
+    	</tr>
+
+    	<tr> 
+    		<td> 1 </td>
+    		<td> Grape </td>
+    	    <td> 23 box </td>
+
+    	</tr>
+
+    	<tr> 
+    		<td> 2 </td>
+    		<td> Pineapple </td>
+    		<td> 20 box </td>
+
+    	</tr>
+
+    	<tr> 
+    		<td> 3 </td>
+    		<td> Mango </td>
+    		<td> 30 box </td>
+    	</tr>
+    </table>
+
+    <h3> HOVER EFFECT </h3>
+    <table style=" width: 100%;">
+    <caption> Table 6: Table of Hover Effect </caption>
+    
+    <style>
+    	table, th, td {
+
+    	} 
+    	 table tr :hover {
+    		background: yellow ;
+    	}
+    </style>
+
+    <table width="100%">
+    	<tr> 
+    		<th> Name </th>
+			<th> Phone No. </th>
+			<th> Email </th>
+			<th> Course </th>
+		</tr>
+
+		<tr> 
+			<td> Nora Ishak </td>
+			<td> 0199090880 </td>
+			<td> Nora_ishak@gmail.com </td>
+			<td> IM110 </td>
+
+		</tr>
+		<tr> 
+			<td> Azmeer Ali </td>
+			<td> 0112008800 </td>
+		    <td> Azmeer_ali@yahoo.com </td>
+		    <td> IM110 </td>
+
+		</tr>
+		<tr>
+			<td> Arizan Abdullah </td>
+			<td> 0177779009 </td>
+		    <td> arizan@gmail.com </td>
+		    <td> IM245 </td>
+		 </tr>
+
+		 <tr> 
+			<td> Zainab Esah </td> 
+			<td> 0198880099 </td>
+		    <td> z_esah@yahoo.com </td>
+		    <td> CS11 </td>
+
+		</tr>
+	</table>
+    </body>
+    </html> 
+
+
+    <h3> BORDER AND ALTERNATE ROW BACKGROUND COLORS </h3>
+    <table style=" width: 100%;">
+    <caption> Table 7: Table of Border and Background Colors </caption>
+
+
+    <style> 
+    	.altRowtable {
+    		border-collapse: collapse;
+    		width: 100%;
+    	}
+    	.altRowtable th, .altRowtable td {
+    		border: 2 px skyblue;
+    		padding: 3px;
+    		text-align: center;
+    	}
+    	.altRowtable tr:nth-child(even){
+    		background-color: lightblue;
+
+    	}
+    	.altRowtable tr:nth-child(odd) {
+    		background-color: slateblue;
+    		color: black;
+    	}
+    	.altRowtable th{
+    		background-color: blueviolet;
+    		color: antiquewhite;
+    	}
+    </style>
+
+    <table class=" altRowtable">
+
+    	<tr> 
+    		<th> Name </th>
+			<th> Phone No. </th>
+			<th> Email </th>
+			<th> Course </th>
+		</tr>
+
+		<tr> 
+			<td> Nora Ishak </td>
+			<td> 0199090880 </td>
+			<td> Nora_ishak@gmail.com </td>
+			<td> IM110 </td></th>
+		</tr>
+
+		<tr> 
+			<td> Azmeer Ali </td>
+			<td> 0112008800 </td>
+		    <td> Azmeer_ali@yahoo.com </td>
+		    <td> IM110 </td>
+
+		</tr>
+		<tr>
+			<td> Arizan Abdullah </td>
+			<td> 0177779009 </td>
+		    <td> arizan@gmail.com </td>
+		    <td> IM245 </td>
+		 </tr>
+
+		 <tr> 
+			<td> Zainab Esah </td> 
+			<td> 0198880099 </td>
+		    <td> z_esah@yahoo.com </td>
+		    <td> CS11 </td>
+		 </tr>
+		</table>
+
+		
+		<h3> BORDER AND ALTERNATE COLUMNS BACKGROUND COLORS </h3>
+		<table style=" width: 100%;">
+		<caption> Table 8: Table of Border and Background Colors </caption>
+
+
+		<style> 
+			.altCotTable { 
+				border-collapse: collapse;
+				width: 100%;
+
+			 }
+			 .altCotTable th, .altCotTable td {
+			 	border: 2px solid black;
+			 	padding: 3px;
+			 	text-align: center;
+
+			 }
+			 .altCotTable th:nth-child(odd),
+			 .altCotTable td:nth-child(odd){
+			 	background-color: red;
+
+			 }
+			 .altCotTable th:nth-child(even),
+			 .altCotTable td:nth-child(even){
+			 	background-color: darkred;
+
+			 }
+			 .altCotTable th {
+			 	font-weight: bold;
+
+			 }
+			</style>
+
+			<table class="altCotTable">
+
+			<tr>
+				<th> Name </th>
+			    <th> Phone No. </th>
+			    <th> Email </th>
+			    <th> Course </th>
+			
+		</tr>
+
+		    <tr> 
+		    	<td> Nora Ishak </td>
+			    <td> 0199090880 </td>
+			    <td> Nora_ishak@gmail.com </td>
+			    <td> IM110 </td>
+		</tr>
+
+		<tr> 
+			<td> Azmeer Ali </td>
+			<td> 0112008800 </td>
+		    <td> Azmeer_ali@yahoo.com </td>
+		    <td> IM110 </td>
+
+		 </tr>
+
+		 <tr> 
+			<td> Arizan Abdullah </td>
+			<td> 0177779009 </td>
+		    <td> arizan@gmail.com </td>
+		    <td> IM245 </td>
+		 </tr>
+
+		 <tr> 
+			<td> Zainab Esah </td> 
+			<td> 0198880099 </td>
+		    <td> z_esah@yahoo.com </td>
+		    <td> CS11 </td>
+		</tr>
+		</table>
+		</html> 
+
+		
+
+
+
+
+
+			
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+

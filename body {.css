@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: deeppink;
+    color: black;
+}
+
+header {
+    background: linear-gradient(135deg, #ff8ccf, #ffb6e6);
+    padding-bottom: 50px;
+    color: white;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+.logo span {
+    color: #ffd6f3;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffe6f9;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+.hero-text h2 {
+    font-size: 45px;
+    margin: 0;
+}
+.hero-text span {
+    color: #ffe6f9;
+}
+.hero-text p {
+    margin: 15px 0 25px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: white;
+    color: #ff69b4;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffe3f0;
+}
+
+.hero-img img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffcff1;
+    box-shadow: 0 0 20px #ffccf3;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.section-desc {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Pink section */
+.pink-bg {
+    background: #ffe6f5;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 18px;
+    box-shadow: 0 0 10px #ffd2ef;
+}
+
+/* SKILLS */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.skills-list li {
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #ff8ccf;
+    color: white;
+    margin-top: 50px;
+}
